@@ -1,0 +1,56 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(489350.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.header
+{
+    background: transparent;
+    padding: 20px 10px;
+}
+.header a
+{
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.header a:hover
+{
+    background-color: beige;
+    color: black;
+}
+.header a.logo
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.header a.active
+{
+    background-color: dodgerblue;
+}
+.header2
+{
+    float: right;
+}
+@media screen and (max-width: 500px){
+    .header a
+    {
+        float: none;   
+        text-align:left;
+        display: block;
+    }
+    .header2
+    {
+        float: none;
+    }
+}
